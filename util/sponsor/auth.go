@@ -64,9 +64,10 @@ func ConfigureSponsorship(token string) error {
 
 	// Token setzen
 	Token = token
+	x
 
 	// Setze den Subject-Wert manuell
-	Subject = "Tom" // Du kannst hier auch eine andere Logik einbauen, wenn du ein bestimmtes Subjekt brauchst
+	Subject = token
 
 	// Setze das Ablaufdatum auf 10 Jahre in die Zukunft
 	ExpiresAt = time.Now().AddDate(100, 0, 0) // 100 Jahre in der Zukunft
