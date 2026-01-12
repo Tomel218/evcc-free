@@ -64,7 +64,6 @@ func ConfigureSponsorship(token string) error {
 
 	// Token setzen
 	Token = token
-	x
 
 	// Setze den Subject-Wert manuell
 	Subject = token
